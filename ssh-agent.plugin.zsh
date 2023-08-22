@@ -1,5 +1,5 @@
 # Get the filename to store/lookup the environment from
-ssh_env_cache="$HOME/.ssh/environment-$SHORT_HOST"
+ssh_env_cache="$HOME/.ssh/environment-$HOST"
 
 function _start_agent() {
   # Check if ssh-agent is already running
